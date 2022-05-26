@@ -10,7 +10,7 @@ Based on the results, the stock market performed much better in 2017 than in 201
 
 After refactoring the code the speed has increased 4 fold. To achieve this increase we created two i loops and inserted them before the j loop and after the j loop. In the original code all 3013 lines of data were run for each i value of 0 to 12 because the j loop was nested inside of the i loop. In this new code the 3013 lines of data are only run once since the j loop is no longer nested inside of the i loop. In essence, we can process 33,143 less lines of data this way.
 
-### Summary
+## Summary
 
 In summary, I think the advantages of refactoring code is that the efficiency of the code can be increased without starting from scratch. The main disadvantage though is changing one area of the code can break another area which can result in large time sinks. This is especially prevelent if the code does not have accurate commenting or it has been a while since the code was touched. Another disadvantage is refactoring may not be worth the time investment depending on how efficient the original code is. In each case time value should be taken into account.
 
